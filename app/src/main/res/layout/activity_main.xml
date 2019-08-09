@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtBoxerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boxer ID:"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/edtBoxerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter ID..."
+            android:inputType="textPersonName" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtBoxerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boxer Name:"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/edtBoxerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Name..."
+            android:inputType="textPersonName" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtPunchPower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boxer Punch Pow:"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/edtPunchPower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter PunchPower"
+            android:inputType="textPersonName" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boxer Speed:"
+            android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/edtSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Speed..."
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSendData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEND DATA TO SERVER" />
+
+
+    </LinearLayout>
+</RelativeLayout>
